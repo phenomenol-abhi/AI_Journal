@@ -1,0 +1,10 @@
+Django>=5.2,<6.0
+djangorestframework>=3.16
+djangorestframework-simplejwt>=5.5
+django-cors-headers>=4.9
+channels>=4.3
+daphne>=4.2
+langchain>=0.3,<0.4
+python-dotenv>=1.0
+openai>=1.60
+qdrant-client>=1.12
