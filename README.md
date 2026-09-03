@@ -187,13 +187,3 @@ backend/
 frontend/        React (Vite): src/components (AuthPage, Journal, Chat,
                  NotesSidebar), src/hooks/useChatSocket, src/lib/api
 ```
-
-## Assignment deliverables checklist
-
-- [x] Source code (this repo) — DRF backend, React frontend, AI layer
-- [x] `.env.example` showing the provider toggle (`CHAT_PROVIDER` / `EMBED_PROVIDER` across
-      Ollama, OpenRouter, Gemini, OpenAI)
-- [x] `README.md` with local run steps, the LLM-abstraction explanation, and the
-      multi-tenancy/data-isolation explanation (sections above)
-- [ ] Video demo (1–3 min): log in → add a note → query it (streaming) → ask a follow-up
-      (memory) → show the terminal `RAG retrieval user=... hits=...` logs
